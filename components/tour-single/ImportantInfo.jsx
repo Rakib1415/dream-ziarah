@@ -91,7 +91,7 @@ const ImportantInfo = ({hajj}) => {
           <span className="text-dark fw-500">Private Experience:</span> This is a private tour/activity. Your group will be the sole participants.
           </li> */}
           <li>
-          <span className="text-dark fw-500">Refund Window:</span> To receive a full refund, please cancel at least 24 hours before the experience start date.
+          <span className="text-dark fw-500">Refund Window:</span> {hajj ? <>To receive a full refund, please cancel it before 12th April.</> : <>To receive a full refund, please cancel at least 24 hours before the experience start date.</>} 
           </li>
         </ul>
       </div>
