@@ -173,7 +173,7 @@ const TourSingleV1Dynamic = ({ params}) => {
       </section>
       {/* End gallery grid wrapper */}
 
-      <TourGallery tour={tour} hajj={hajj} />
+      <TourGallery tour={tour} />
 
       {/* End single page content */}
 
