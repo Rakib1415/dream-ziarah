@@ -39,8 +39,11 @@ const TourSnapShot = ({hajj}) => {
         <div className="d-flex">
           <i className="icon-route text-22 text-blue-1 mr-10"></i>
           <div className="text-15 lh-15">
-          24-day or
-            <br />14-day options
+          {
+            hajj ? <>24-day or
+            <br />14-day options</> : <> Near public
+            <br /> transportation</>
+          }
           </div>
         </div>
       </div>
@@ -51,7 +54,7 @@ const TourSnapShot = ({hajj}) => {
           <i className="icon-access-denied text-22 text-blue-1 mr-10"></i>
           <div className="text-15 lh-15">
           Free cancellation 
-          <br />until April 12th
+          <br />{hajj ? "until April 12th" : ""}
             {/* <a href="#" className="text-blue-1 underline">
               Learn more
             </a> */}

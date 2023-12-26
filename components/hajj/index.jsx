@@ -57,8 +57,11 @@ const Hajj = () => {
     dispatch(addtourItem(data));
   }
 
+  
+
   return (
     <>
+     
       {/* End Page Title */}
 
       <div className="header-margin"></div>

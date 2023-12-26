@@ -64,8 +64,11 @@ const TourSingleV1Dynamic = ({ params}) => {
     dispatch(addtourItem(data));
   }
 
+
+
   return (
     <>
+      
       {/* End Page Title */}
 
       <div className="header-margin"></div>
